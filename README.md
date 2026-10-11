@@ -7,7 +7,15 @@
 
 A web app that takes attendance by recognising faces. Each user registers a reference photo, an admin approves it, and from then on the user checks in by looking at the camera. If the face doesn't match the approved photo, no attendance is recorded and the attempt goes to a security log.
 
-<!-- Screenshots: add images to docs/ and reference them here, e.g. ![Check in](docs/check-in.png) -->
+## Screenshots
+
+| Attendance history | Security log |
+|---|---|
+| ![Attendance history](docs/attendance-history.png) | ![Security log](docs/security-log.png) |
+
+Failed check-ins are logged with the face distance, so the admin can see how far the live face was from the approved one (a match needs 0.5 or less).
+
+<sub>Screenshots use demo data with generic names.</sub>
 
 ## Features
 
