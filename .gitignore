@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+*_env/
+*venv/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Local settings and secrets
+.env
+.streamlit/secrets.toml
+
+# Runtime data: database, attendance records and face photos
+data/
+*.db
+*.csv
+
+# OS / temp
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
